@@ -1,0 +1,15 @@
+.navbar-brand img {
+    height: 4px; /* Sesuaikan tinggi logo */
+    transition: transform 0.3s;
+}
+
+.navbar-brand img:hover {
+    transform: scale(1.05);
+}
+
+/* Untuk logo di mobile */
+@media (max-width: 991.98px) {
+    .navbar-brand img {
+        height: 35px;
+    }
+}
